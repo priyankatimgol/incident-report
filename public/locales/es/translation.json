@@ -1,0 +1,11 @@
+
+{
+  
+  
+  "incident_title": "Título del incidente",
+  "incident_date": "Fecha del incidente",
+  "incident_type":"Tipo de incidente",
+  "incident_severity":"Gravedad del incidente",
+  "work_flow_status": "Estado del flujo de trabajo",
+  "incident_report_by":"Informe de incidente por"
+}

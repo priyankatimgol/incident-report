@@ -1,0 +1,10 @@
+{
+  
+  
+  "incident_title": "Incident Title",
+  "incident_date": "Incident Date",
+  "incident_type":"Incident Type",
+  "incident_severity":"Incident Severity",
+  "work_flow_status": "WorkFlow Status",
+  "incident_report_by":"Incident Report By"
+}

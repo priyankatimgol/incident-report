@@ -1,0 +1,9 @@
+button.primary {
+  background-color: #1274ac;
+}
+.k-button {
+  font-weight: bold;
+}
+.z-9 {
+  z-index: 9999 !important;
+}

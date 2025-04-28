@@ -1,67 +1,309 @@
 {
   "name": "work-permit",
+  
   "version": "0.1.0",
+  
   "private": true,
+  
   "dependencies": {
-    "@progress/kendo-data-query": "^1.6.0",
-    "@progress/kendo-drawing": "^1.16.3",
-    "@progress/kendo-licensing": "^1.2.2",
-    "@progress/kendo-react-animation": "^5.5.0",
-    "@progress/kendo-react-buttons": "^5.5.0",
-    "@progress/kendo-react-data-tools": "^5.5.0",
-    "@progress/kendo-react-dateinputs": "^5.5.0",
-    "@progress/kendo-react-dropdowns": "^5.5.0",
-    "@progress/kendo-react-form": "^5.5.0",
-    "@progress/kendo-react-grid": "^5.5.0",
-    "@progress/kendo-react-inputs": "^5.5.0",
-    "@progress/kendo-react-intl": "^5.5.0",
-    "@progress/kendo-react-layout": "^5.5.0",
-    "@progress/kendo-react-pdf": "^5.5.0",
-    "@progress/kendo-react-progressbars": "^5.5.0",
-    "@progress/kendo-react-treeview": "^5.5.0",
-    "@progress/kendo-react-upload": "^5.5.0",
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.3.0",
-    "@testing-library/user-event": "^13.5.0",
-    "axios": "^0.27.2",
-    "bootstrap": "^5.1.3",
-    "i18next": "^21.8.14",
-    "i18next-browser-languagedetector": "^6.1.4",
-    "i18next-http-backend": "^1.4.1",
-    "moment": "^2.29.4",
-    "react": "^18.2.0",
-    "react-axios": "^2.0.6",
-    "react-bootstrap": "^2.4.0",
-    "react-dom": "^18.2.0",
-    "react-formio": "^4.3.0",
-    "react-i18next": "^11.18.1",
-    "react-is": "^18.2.0",
-    "react-router-dom": "^6.3.0",
-    "react-scripts": "^5.0.1",
-    "web-vitals": "^2.1.4"
+  
+    
+  "@emotion/react": "^11.10.4",
+  
+    
+  "@emotion/styled": "^11.10.4",
+  
+    
+  "@formio/react": "^5.2.3",
+  
+    
+  "@mui/lab": "^5.0.0-alpha.103",
+  
+    
+  "@mui/material": "^5.10.9",
+  
+    
+  "@mui/styled-engine": "^5.10.8",
+  
+    
+  "@progress/kendo-data-query": "^1.6.0",
+  
+    
+  "@progress/kendo-drawing": "^1.16.3",
+  
+    
+  "@progress/kendo-licensing": "1.2.2",
+  
+    
+  "@progress/kendo-react-animation": "5.5.0",
+  
+    
+  "@progress/kendo-react-buttons": "^5.8.0",
+  
+    
+  "@progress/kendo-react-common": "^5.5.0",
+  
+    
+  "@progress/kendo-react-data-tools": "^5.5.0",
+  
+    
+  "@progress/kendo-react-dateinputs": "^5.5.0",
+  
+    
+  "@progress/kendo-react-dialogs": "^5.5.0",
+  
+    
+  "@progress/kendo-react-dropdowns": "^5.5.0",
+  
+    
+  "@progress/kendo-react-editor": "^5.9.0",
+  
+    
+  "@progress/kendo-react-form": "^5.5.0",
+  
+    
+  "@progress/kendo-react-grid": "^5.5.0",
+  
+    
+  "@progress/kendo-react-inputs": "^5.5.0",
+  
+    
+  "@progress/kendo-react-intl": "5.5.0",
+  
+    
+  "@progress/kendo-react-labels": "^5.5.0",
+  
+    
+  "@progress/kendo-react-layout": "^5.5.0",
+  
+    
+  "@progress/kendo-react-listbox": "^5.14.1",
+  
+    
+  "@progress/kendo-react-pdf": "^5.5.0",
+  
+    
+  "@progress/kendo-react-popup": "^5.9.0",
+  
+    
+  "@progress/kendo-react-progressbars": "^5.5.0",
+  
+    
+  "@progress/kendo-react-treeview": "^5.5.0",
+  
+    
+  "@progress/kendo-react-upload": "^5.5.0",
+  
+    
+  "@progress/kendo-theme-default": "^5.8.1",
+  
+    
+  "@reduxjs/toolkit": "^1.9.0",
+  
+    
+  "@testing-library/jest-dom": "^5.16.4",
+  
+    
+  "@testing-library/react": "^13.3.0",
+  
+    
+  "@testing-library/user-event": "^13.5.0",
+  
+    
+  "axios": "^0.27.2",
+  
+    
+  "bootstrap": "^4.6.2",
+  
+    
+  "bpmn-js": "^7.3.0",
+  
+    
+  "bpmn-js-properties-panel": "^0.32.1",
+  
+    
+  "camunda-bpmn-js": "^0.15.2",
+  
+    
+  "camunda-bpmn-moddle": "^4.4.0",
+  
+    
+  "choices.js": "^10.1.0",
+  
+    
+  "env-cmd": "^10.1.0",
+  
+    
+  "file-saver": "^2.0.5",
+  
+    
+  "font-awesome": "^4.7.0",
+  
+    
+  "formiojs": "^4.14.8",
+  
+    
+  "framer-motion": "^6.5.1",
+  
+    
+  "i18next": "^21.8.16",
+  
+    
+  "i18next-browser-languagedetector": "^6.1.4",
+  
+    
+  "i18next-http-backend": "^1.4.1",
+  
+    
+  "moment": "^2.29.4",
+  
+    
+  "react": "^18.2.0",
+  
+    
+  "react-bootstrap": "^2.4.0",
+  
+    
+  "react-dom": "^18.2.0",
+  
+    
+  "react-dropdown-tree-select": "^2.7.1",
+  
+    
+  "react-formio": "^4.3.0",
+  
+    
+  "react-i18next": "^11.18.3",
+  
+    
+  "react-icons": "^4.4.0",
+  
+    
+  "react-image-marker": "^1.2.0",
+  
+    
+  "react-liquid": "^2.0.1",
+  
+    
+  "react-native-base64": "^0.2.1",
+  
+    
+  "react-paginate": "^8.1.3",
+  
+    
+  "react-redux": "^8.0.5",
+  
+    
+  "react-router-dom": "^6.3.0",
+  
+    
+  "react-scripts": "^5.0.1",
+  
+    
+  "react-table": "^7.8.0",
+  
+    
+  "react-toastify": "^9.0.8",
+  
+    
+  "react-tooltip": "^4.5.0",
+  
+    
+  "react-tooltip-lite": "^1.12.0",
+  
+    
+  "tooltip.js": "^1.3.3",
+  
+    
+  "web-vitals": "^2.1.4"
+  
   },
+  
+  "peerDependencies": {
+  
+    
+  "formiojs": "^4.14.8"
+  
+  },
+  
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  
+    
+  "start": "react-scripts start",
+  
+    
+  "build": "set \"CI=false\" && react-scripts build",
+  
+    
+  "test": "react-scripts test",
+  
+    
+  "eject": "react-scripts eject"
+  
   },
+  
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  
+    
+  "extends": [
+  
+    
+    
+  "react-app",
+  
+    
+    
+  "react-app/jest"
+  
+    
+  ]
+  
   },
+  
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  
+    
+  "production": [
+  
+    
+    
+  ">0.2%",
+  
+    
+    
+  "not dead",
+  
+    
+    
+  "not op_mini all"
+  
+    
+  ],
+  
+    
+  "development": [
+  
+    
+    
+  "last 1 chrome version",
+  
+    
+    
+  "last 1 firefox version",
+  
+    
+    
+  "last 1 safari version"
+  
+    
+  ]
+  
+  },
+  
+  "devDependencies": {
+  
+    
+  "sass": "^1.55.0"
+  
   }
 }

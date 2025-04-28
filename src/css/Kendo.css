@@ -1,0 +1,206 @@
+.k-content .form-group {
+  margin: 0px !important;
+}
+input.k-input {
+  border-radius: 0.25rem !important ;
+}
+
+.k-input {
+  border-radius: 0.25rem !important ;
+}
+
+.k-picker-solid {
+  border-radius: 0.25rem !important ;
+  background-color: #fff;
+  margin-bottom: 0px;
+}
+.k-input-solid {
+  border-color: rgba(0, 0, 0, 0.9) !important;
+}
+.k-form .k-form-label,
+.k-form .k-label,
+.k-form kendo-label {
+  font-weight: bold;
+}
+.k-picker-solid {
+  border-color: rgba(0, 0, 0, 0.9) !important;
+}
+.k-panelbar {
+  text-transform: capitalize !important;
+}
+.k-form .k-form-field {
+  margin-top: 0em;
+}
+
+.k-form-field-wrap {
+  margin-bottom: 7px;
+}
+.k-editor {
+  border-color: #424242;
+}
+label.k-label {
+  font-weight: bold;
+}
+input.k-textbox.abc {
+  width: 172px;
+  height: 26px;
+}
+
+.slider .k-textbox.abc.border.rounded:focus-visible {
+  outline: none !important;
+}
+.slider .k-textbox.abc.border.rounded {
+  border-color: rgba(0, 0, 0, 0.9) !important;
+}
+.k-animation-container.k-animation-container-relative {
+  overflow: visible;
+}
+.k-editor {
+  border-color: #424242;
+}
+.component-settings {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+.component-edit-container {
+  height: auto;
+  overflow: hidden;
+}
+.component-edit-content {
+  height: calc(100% - 4em);
+}
+.component-edit-tabs.col-sm-6 {
+  height: 100%;
+  overflow-y: auto;
+}
+.component-edit-tabs.col-sm-12 {
+  height: calc(100% - 4em);
+  overflow-y: auto;
+}
+.component-edit-tabs.col-sm-12 .editForm {
+  height: calc(100% - 4em);
+  overflow-y: auto;
+}
+.progress.pdf-progress {
+  height: 2rem;
+}
+.progress.pdf-progress .progress-bar {
+  font-size: 1rem;
+  line-height: 2rem;
+}
+.builder-sidebar.disabled .formcomponent {
+  cursor: not-allowed;
+  opacity: 0.65;
+  box-shadow: none;
+}
+/* .gray-custom-marker {
+  width: 25px;
+  height: 25px;
+  border-radius: 50% 50% 50% 0%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background: #007bff;
+  position: absolute;
+  transform: rotate(-45deg);
+  left: 50%;
+  top: 50%;
+}
+.custom-marker {
+  width: 25px;
+  height: 25px;
+  border-radius: 50% 50% 50% 0%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background: #f5a600;
+  position: absolute;
+  transform: rotate(-45deg);
+  left: 50%;
+  top: 50%;
+}
+.custom-marker::after,
+.gray-custom-marker::after {
+  display: none;
+  content: '';
+  width: 9px;
+  height: 9px;
+  margin: 3px 0 0 3px;
+  background: #fff;
+  position: absolute;
+  cursor: pointer;
+  border-radius: 50%;
+} */
+
+.custome {
+  position: absolute;
+
+  top: -20px;
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: var(--bgPrimary);
+  text-align: center;
+}
+.fix-height {
+  min-height: 84px;
+}
+.k-form .k-form-field {
+  margin-top: 0em;
+}
+
+.k-form-field-wrap {
+  margin-bottom: 7px;
+}
+.p-2 {
+  padding: 0.9rem !important;
+}
+.k-input-solid {
+  border-color: rgba(0, 0, 0, 0.9) !important;
+}
+.k-form .k-form-label,
+.k-form .k-label,
+.k-form kendo-label {
+  font-weight: bold;
+}
+.k-picker-solid {
+  border-color: rgba(0, 0, 0, 0.9) !important;
+}
+.k-splitter-horizontal .k-state-hidden {
+  flex-basis: 0% !important;
+}
+.k-splitbar:focus,
+.k-splitbar.k-splitbar:focus {
+  background: gray;
+}
+.k-splitbar:hover,
+.k-splitbar.k-hover,
+.k-splitbar-horizontal-hover,
+.k-splitbar-vertical-hover {
+  background-color: gray;
+}
+.k-treeview-leaf.k-selected {
+  color: #ffffff;
+  background-color: rgb(25, 118, 210, 0.74);
+}
+.span.k-treeview-leaf.k-focus {
+  background-color: rgb(25, 118, 210, 0.74) !important;
+}
+.k-animation-container.k-animation-container-relative.k-datetime-container.k-group.k-reset.k-animation-container-shown {
+  bottom: 20px !important;
+  left: auto !important;
+  right: 20px !important;
+  top: auto !important;
+}
+.emailSrollbar {
+  height: 100vh;
+  max-height: calc(111vh - 184px);
+  overflow: auto;
+  overflow-x: hidden;
+  margin: 2em 0 0;
+  padding: 0px;
+  border: 0;
+}
+/* .k-input-inner {
+  text-transform: capitalize;
+} */
+.k-button-md.k-icon-button > img.k-button-icon {
+  height: 20px;
+  width: 20px;
+}

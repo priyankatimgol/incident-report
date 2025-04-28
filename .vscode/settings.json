@@ -1,0 +1,42 @@
+{
+  "cSpell.words": [
+    "tipos"
+  ],
+  "workbench.editor.enablePreview": true,
+  "workbench.editor.enablePreviewFromQuickOpen": true,
+  "search.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/tmp": true,
+    "**/db": true,
+    "**/report": true,
+    "**/build": true,
+    "**/coverage": true
+  },
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#d9acf0",
+    "activityBar.foreground": "#000000",
+    "activityBarBadge.background": "#000000",
+    "titleBar.activeBackground": "#d9acf0",
+    "titleBar.activeForeground": "#000000",
+    "titleBar.inactiveBackground": "#d9acf0",
+    "titleBar.inactiveForeground": "#000000",
+    "statusBar.background": "#d9acf0",
+    "statusBar.foreground": "#000000",
+    "button.background": "#d9acf0",
+    "button.foreground": "#000000",
+    "button.hoverBackground": "#d29bee",
+    "button.hoverForeground": "#000000",
+    "focusBorder": "#d9acf0",
+    "list.activeSelectionBackground": "#d9acf0",
+    "list.activeSelectionForeground": "#000000"
+  },
+  "liveServer.settings.port": 5501
+}

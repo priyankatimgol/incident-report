@@ -1,0 +1,16 @@
+.form-builder {
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-top: 56px;
+}
+
+.k-form-fieldset {
+  margin-top: 7px;
+  margin-left: 2px;
+}
+.col-md-10 {
+  margin-left: -14px;
+}
+body {
+  font-family: Poppins;
+}

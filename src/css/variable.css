@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Honeywell-light';
+  src: local('blissmediumregular');
+  src: url('/public/resources/media/HoneywellSansWeb-Light.2946f6a9.eot');
+  src: url('/public/resources/media/HoneywellSansWeb-Light.efb26013.woff') format('woff'),
+    url('/public/resources/media/HoneywellSansWeb-Light.7223928a.svg') format('svg');
+  font-weight: light;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Honeywell-medium';
+  src: local('blissmediumregular');
+  src: url('/public/resources/media/HoneywellSansWeb-Medium.c233ee8d.eot');
+  src: url('/public/resources/media/HoneywellSansWeb-Medium.b5b3ec6c.woff') format('woff'),
+    url('/public/resources/media/HoneywellSansWeb-Medium.31888dcf.svg') format('svg');
+  font-weight: medium;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Honeywell-bold';
+  src: local('blissmediumregular');
+  src: url('/public/resources/media/HoneywellSansWeb-Bold.b170fae1.eot');
+  src: url('/public/resources/media/HoneywellSansWeb-Bold.dab3d9c1.woff') format('woff'),
+    url('/public/resources/media/HoneywellSansWeb-Bold.3b1bfb90.svg') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+:root {
+  --fontFamily: Honeywell-medium;
+  --bgPrimary: #1274ac;
+  --textPrimary: #1274ac;
+  --bgWhite: #ffff;
+  --textWhite: #ffff;
+  --textDarkGray: #424242;
+  --textLightGray: #808080;
+}

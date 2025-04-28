@@ -1,0 +1,54 @@
+.k-grid {
+    width: 100%;
+    font-size: inherit;
+  }
+  
+  .k-grid-header {
+    font-weight: bold;
+  }
+  
+  .k-grid td {
+    white-space: nowrap;
+  }
+  .hyperlink {
+    color: #0000aa;
+    cursor: pointer;
+  }
+  .hyperlink:hover {
+    text-decoration: underline;
+  }
+  .k-grid th {
+    padding: 5px;
+  }
+  
+  .k-grid-header .k-header:first-child {
+    /* padding: 0px 10px 12px 12px; */
+  }
+  .k-grid-header .k-header > .k-link {
+    margin: 0px;
+  }
+  .overdueIconHolder {
+    float: right;
+    position: relative;
+    top: -5px;
+  }
+  .badge-warning,
+  .overdueIconHolder .badge-warning {
+    color: #be271c !important;
+    background-color: transparent;
+    float: left;
+    font-size: 24px !important;
+  }
+
+ 
+  
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 20px;
+    /* border: 3px solid orange; */
+  }
+  

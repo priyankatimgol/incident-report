@@ -1,0 +1,99 @@
+.downloadBtn {
+  position: absolute;
+  display: flex;
+  bottom: 10px;
+  margin: 10px;
+  z-index: 9999;
+  background-color: aliceblue;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.pointer {
+  cursor: pointer;
+}
+.shadowBtn {
+  border: none;
+  margin: 0px 5px;
+  padding: 5px 10px;
+  background-color: transparent !important;
+  cursor: pointer;
+}
+.djs-palette {
+  border: none !important;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.properties-panel-parent {
+  font-family: sans-serif !important;
+}
+.bpp-properties-panel button {
+  padding: 0px !important;
+}
+.bjs-powered-by {
+  display: none !important;
+}
+.bpp-properties-panel label,
+.bpp-field-description {
+  font-size: 10px;
+}
+.bpp-properties-group > .group-label {
+  font-style: normal !important;
+  font-size: 15px !important;
+}
+.bpmn-icon-lasso-tool,
+.bpmn-icon-space-tool,
+.bpmn-icon-intermediate-event-none,
+.bpmn-icon-subprocess-expanded,
+.bpmn-icon-data-object,
+.bpmn-icon-data-store,
+.bpmn-icon-group,
+.bpmn-icon-participant {
+  display: none !important;
+}
+.djs-palette.two-column.open {
+  width: auto !important;
+}
+.group {
+  display: flex !important;
+  flex-direction: column !important;
+}
+.bpp-table-row {
+  display: flex;
+  width: 100%;
+}
+.bpp-table-row-columns-2 {
+  width: 50% !important;
+  margin: 0px 3px !important;
+}
+#camunda-versionTag-select {
+  margin: 0px 3px !important;
+}
+#camunda-versionTag-select option {
+}
+
+.bpp-properties-panel input:focus,
+.bpp-properties-panel button:focus,
+.bpp-properties-panel textarea:focus,
+.bpp-properties-panel [contenteditable]:focus {
+  border-color: rgba(0, 0, 0, 0.16) !important;
+  box-shadow: 0 0 0 2px rgb(0 0 0 / 8%) !important;
+}
+.disableInput {
+  pointer-events: none !important;
+}
+
+#properties-panel-parent div.bpp-properties-header div.label {
+  display: none;
+}
+
+#properties-panel-parent
+  div.bpp-properties-tabs-container
+  div.bpp-properties-entry[data-entry='id'] {
+  display: none;
+}
+
+
+
+#container div.bjs-container div.djs-overlay-container div.entry.bpmn-icon-text-annotation,
+#container div.bjs-container div.djs-overlay-container div.entry.bpmn-icon-screw-wrench {
+  display: none;
+}

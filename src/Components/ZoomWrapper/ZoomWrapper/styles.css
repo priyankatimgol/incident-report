@@ -1,0 +1,21 @@
+.zoom-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.zoom-controls {
+  margin-bottom: 10px;
+}
+
+.zoom-content-wrapper {
+  flex-grow: 1;
+  overflow: inherit;
+}
+
+.zoom-content {
+  width: 100%;
+  height: 100%;
+  transform-origin: top left;
+}
